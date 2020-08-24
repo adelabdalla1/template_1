@@ -107,6 +107,7 @@ a{
     position: fixed;
     width: 100%;
     z-index: 10;
+    background: rgba(1, 1, 1,0.4);
 }
 .header-content{
 }
@@ -667,64 +668,33 @@ margin-bottom: 100px;
     margin: 20px 0 ;
     text-transform: capitalize;
 }
-.form1{
-    width: 300px;
-    margin: 50px 0;
-    margin-bottom: 10px;
+.contact-item-span{
     color: gray;
-    display: inline-block;
 }
-.form2{
-    width: 300px;
-    margin-left:140px ;
-}
-.form3{
-    width: 300px;
-    height: 50px;
-    margin: 30px 100px 30px 200px;
 
-}
 /* footer section */
 .footer{
-    background-color: #05040a;
-    height: 500px;
+    height: 300px;
+    background: #1C1D21;
     text-align: center;
+    padding: 50px;
 }
-.footer-img{
-    padding: 80px 0 30px;
-}
-.footer-icon i{
-    margin: 0 5px 0;
-    padding: 0 30px 0 ;
-    height: 50px;
-    width: 50px;
+.footer-links li{
+    display: inline-block;
+    margin: 30px 10px;
     background-color: #6195FF;
-    padding: 15px 0 0 0;
-    color: white;
-    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 
 }
-.footer-span{
-    display: block;
-    margin-top: 30px;
+.footer-links li i{
+    color: white;
+    padding-top: 15px;
+}
+.footer-desc{
     color: gray;
 }
-.footer-span a{
+.footer-desc a{
     color: #6195FF;
-}
-.adel-abdalla{
-    text-align: center;
-}
-.adel-abdalla .adel{
-    margin: 50px 0  20px 0 ;
-    display: block;
-    font-weight: bold;
-    font-size: 40px;
-}
-.adel-abdalla .section-header{
-    width: 300px;
-    margin: auto;
-    background: black;
-    color: white;
-    margin-bottom:0 ;
 }
